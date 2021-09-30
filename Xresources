@@ -1,0 +1,82 @@
+Xft.dpi:       96
+Xft.antialias: true
+Xft.hinting:   true
+Xft.rgba:      rgb
+Xft.autohint:  false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+XTerm*background:        #9700b5
+XTerm*foreground:        #e45eff
+XTerm*pointerColor:      #efa1ff
+XTerm*faceName:          Fixed
+XTerm*faceSize:          11
+XTerm*reverseVideo:      on
+XTerm*selectToClipboard: true
+
+*background:                      #9700b5
+*foreground:                      #e45eff
+*fading:                          10
+*fadeColor:                       #e45eff
+*cursorColor:                     #efa1ff
+*pointerColorBackground:          #ec8fff
+*pointerColorForeground:          #f3b8ff
+
+!! black dark/light
+*color0:                          #790091
+*color8:                          #850080
+
+!! red dark/light
+*color1:                          #ff3bdb
+*color9:                          #ff14d4
+
+!! green dark/light
+*color2:                          #9a00c9
+*color10:                         #b255cf
+
+!! yellow dark/light
+*color3:                          #924aa8
+*color11:                         #b972cf
+
+!! blue dark/light
+*color4:                          #5f00ad
+*color12:                         #8f4cc5
+
+!! magenta dark/light
+*color5:                          #db00a8
+*color13:                         #ff61da
+
+!! cyan dark/light
+*color6:                          #ac4dff
+*color14:                         #c582ff
+
+!! white dark/light
+*color7:                          #ff78d2
+*color15:                         #ffb3e6
+
+Xcursor.theme: xcursor-breeze
+Xcursor.size:                     0
+
+URxvt.font:                       9x15,xft:TerminessTTFNerdFontMono
+
+URxvt.depth:                      32
+URxvt.background:                 [100]#de10e6
+URxvt*scrollBar:                  false
+URxvt*mouseWheelScrollPage:       false
+URxvt*cursorBlink:                true
+URxvt*background:                 purple
+URxvt*foreground:                 #ffb3e6
+URxvt*saveLines:                  5000
+
+URxvt.iso14755:                   false
+URxvt.keysym.Shift-Control-V:     eval:paste_clipboard
+URxvt.keysym.Shift-Control-C:     eval:selection_to_clipboard
+
+URxvt.keysym.Control-Left:        \033[1;5D
+URxvt.keysym.Shift-Control-Left:  \033[1;6D
+URxvt.keysym.Control-Right:       \033[1;5C
+URxvt.keysym.Shift-Control-Right: \033[1;6C
+URxvt.keysym.Control-Up:          \033[1;5A
+URxvt.keysym.Shift-Control-Up:    \033[1;6A
+URxvt.keysym.Control-Down:        \033[1;5B
+URxvt.keysym.Shift-Control-Down:  \033[1;6B
