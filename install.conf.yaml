@@ -1,5 +1,16 @@
 - clean: ['~']
 
 - link:
+    ~/.profile: profile
+    ~/.bash_profile: bash_profile
+    ~/.bashrc: bashrc
+    ~/.bash_aliases: bash_aliases
+    ~/.vimrc: vimrc
+    ~/.Xresources: Xresources
+    ~/.Xdefaults: Xdefaults
+    ~/.xinitrc: xinitrc
+    ~/.i3:
+        path: i3/
+        create: true
 
 
